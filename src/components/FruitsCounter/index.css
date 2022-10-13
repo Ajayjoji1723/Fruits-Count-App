@@ -1,0 +1,77 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 90%;
+  background-color: #ffffff;
+  padding: 15px;
+  margin: 10px;
+}
+@media (min-width: 768px) {
+  .responsive-container {
+    width: 80%;
+  }
+}
+.heading {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #000000;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 34px;
+  }
+}
+
+.count {
+  color: #ffd569;
+  font-weight: 700;
+  font-family: 'Roboto';
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  .count {
+    font-size: 34px;
+  }
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.mango-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.image {
+  width: 50%;
+}
+.button {
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 12px;
+  border-radius: 5px;
+  border-width: 0px;
+  margin: 10px;
+}
+:hover button {
+  outline: none;
+  cursor: pointer;
+}
